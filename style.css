@@ -1,0 +1,27 @@
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.hero-image{
+    background-image: url(./images/bookshelf-1000x883.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-text{
+    color: antiquewhite;
+    font-size: 80px;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 20%;
+    margin: 0px 0px 0px 750px;
+    text-align: center;
+    background-color: black;
+}
