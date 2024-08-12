@@ -1,8 +1,11 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 img{
     width: 100%;
     border-radius: 5px;
 }
-
 
 .hero-image{
     background-image: url(./images/bookshelf-1000x883.jpg);
@@ -19,9 +22,23 @@ img{
     top: 70px;
     width: 100%;
     border: 2px black solid;
-    border-radius: 10px;
-    width: 20%;
-    margin: 0px 0px 0px 750px;
+    border-radius: 20px;
+    width: 50%;
+    margin: 168px 0px 0px 450px;
     text-align: center;
     background-color: black;
+}
+
+.slogan{
+    font-size: 30px;
+    color: antiquewhite;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    border: 2px black solid;
+    border-radius: 20px;
+    width: 25%;
+    margin: 280px 0px 0px 700px;
+    background-color: black;
+    text-align: center;
 }
