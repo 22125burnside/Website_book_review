@@ -16,29 +16,52 @@ img{
 }
 
 .hero-text{
-    color: antiquewhite;
+    color: rgb(232, 240, 250);
     font-size: 80px;
     position: absolute;
-    top: 70px;
+    top: 20px;
     width: 100%;
-    border: 2px black solid;
+    border: 2px rgb(32, 48, 84) solid;
     border-radius: 20px;
     width: 50%;
     margin: 168px 0px 0px 450px;
     text-align: center;
-    background-color: black;
+    background-color: rgb(32, 48, 84);
 }
 
 .slogan{
     font-size: 30px;
-    color: antiquewhite;
+    color: rgb(232, 240, 250);
     position: absolute;
-    top: 80px;
+    top: 50px;
     width: 100%;
-    border: 2px black solid;
+    border: 2px rgb(32, 48, 84) solid;
     border-radius: 20px;
     width: 25%;
     margin: 280px 0px 0px 700px;
-    background-color: black;
+    background-color: rgb(32, 48, 84);
     text-align: center;
+}
+
+.menu{
+    font-size: 20px;
+    overflow: hidden;
+    background-color: rgb(32, 48, 84);
+}
+
+.menu a{
+    float: left;
+    color: rgb(232, 240, 250);
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.menu a.active{
+    background-color: black;
 }
