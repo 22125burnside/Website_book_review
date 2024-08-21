@@ -74,21 +74,13 @@ img{
     gap: 20%;
 }
 
-.countdown-header, .countdown{
+.countdown-header, .countdown, .description-header, .description-text{
     border: 1px white solid;
+    border-radius: 5px;
     padding: 20px;
     background-color: rgb(32, 48, 84);
     color: rgb(232, 240, 250);
     text-align: center;
-}
-
-.description-header, .description-text{
-    border: 1px white solid;
-    padding: 20px;
-    background-color: rgb(32, 48, 84);
-    color: rgb(232, 240, 250);
-    text-align: center;
-    vertical-align: center;
 }
 
 .countdown-header{
