@@ -1,0 +1,141 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu{
+    font-size: 20px;
+    overflow: hidden;
+    background-color: rgb(32, 48, 84);
+}
+
+.menu a{
+    float: left;
+    color: rgb(232, 240, 250);
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.menu a.active{
+    background-color: black;
+}
+
+.hero-image{
+    background-image: url(./images/bookshelf-1000x883.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-text{
+    color: rgb(232, 240, 250);
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    border: 2px rgb(32, 48, 84) solid;
+    border-radius: 20px;
+    width: 50%;
+    margin: 168px 0px 0px 450px;
+    text-align: center;
+    background-color: rgb(32, 48, 84);
+}
+
+.slogan{
+    font-size: 30px;
+    color: rgb(232, 240, 250);
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    border: 2px rgb(32, 48, 84) solid;
+    border-radius: 20px;
+    width: 25%;
+    margin: 280px 0px 0px 700px;
+    background-color: rgb(32, 48, 84);
+    text-align: center;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 80%;
+    margin: 20px auto 30px auto;
+    gap: 20%;
+}
+
+.countdown-header, .countdown, .description-header, .description-text{
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(32, 48, 84);
+    color: rgb(232, 240, 250);
+    text-align: center;
+}
+
+.countdown-header{
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    height: 125px;
+    vertical-align: center;
+}
+
+.countdown{
+    margin-top: 0px;
+    font-size: 45px;
+    height: 50px;
+}
+
+.description-header{
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    height: 45px;
+}
+
+.description-text{
+    margin-top: 0px;
+    background-color: rgb(32, 48, 84);
+    height: 130px;
+}
+
+.four-column{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: 40px auto 50px auto;
+}
+
+.image{
+    background-color: rgb(32, 48, 84);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.text{
+    text-align: center;
+    color: rgb(232, 240, 250);
+    font-size: 40px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.book{
+    height: 350px;
+}
+

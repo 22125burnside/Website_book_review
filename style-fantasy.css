@@ -7,6 +7,29 @@ img{
     border-radius: 5px;
 }
 
+.menu{
+    font-size: 20px;
+    overflow: hidden;
+    background-color: rgb(32, 48, 84);
+}
+
+.menu a{
+    float: left;
+    color: rgb(232, 240, 250);
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.menu a.active{
+    background-color: black;
+}
+
 .hero-image{
     background-image: url(./images/bookshelf-1000x883.jpg);
     height: 400px;
@@ -43,79 +66,12 @@ img{
     text-align: center;
 }
 
-.menu{
-    font-size: 20px;
-    overflow: hidden;
-    background-color: rgb(32, 48, 84);
-}
-
-.menu a{
-    float: left;
-    color: rgb(232, 240, 250);
-    text-align: center;
-    padding: 15px 15px;
-    text-decoration: none;
-}
-
-.menu a:hover{
-    background-color: black;
-    color: antiquewhite;
-}
-
-.menu a.active{
-    background-color: black;
-}
-
-.two-column{
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    width: 80%;
-    margin: 20px auto 30px auto;
-    gap: 20%;
-}
-
-.countdown-header, .countdown, .description-header, .description-text{
-    border: 1px white solid;
-    border-radius: 5px;
-    padding: 20px;
-    background-color: rgb(32, 48, 84);
-    color: rgb(232, 240, 250);
-    text-align: center;
-}
-
-.countdown-header{
-    font-size: 50px;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    height: 125px;
-    vertical-align: center;
-}
-
-.countdown{
-    margin-top: 0px;
-    font-size: 45px;
-    height: 50px;
-}
-
-.description-header{
-    font-size: 45px;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    height: 60px;
-}
-
-.description-text{
-    margin-top: 0px;
-    background-color: rgb(32, 48, 84);
-    height: 115px;
-}
-
 .four-column{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 100px;
     width: 80%;
-    margin: 40px auto 50px auto;
+    margin: 40px auto 50px 40px;
 }
 
 .image{
@@ -124,14 +80,31 @@ img{
     border-radius: 5px;
 }
 
+.author{
+    text-align: center;
+    vertical-align: center;
+    color: rgb(232, 240, 250);
+    font-size: 30px;
+}
+
 .text{
     text-align: center;
     vertical-align: center;
     color: rgb(232, 240, 250);
-    font-size: 40px;
+    font-size: 20px;
+}
+
+.link{
+    text-align: center;
+    color: rgb(232, 240, 250);
+    text-decoration: none;
 }
 
 .book{
     height: 350px;
 }
 
+.name{
+    text-align: center;
+    color: rgb(232, 240, 250);
+}
