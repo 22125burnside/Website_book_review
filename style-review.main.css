@@ -97,6 +97,13 @@ img{
     font-size: 30px;
 }
 
+.type{
+    text-align: center;
+    vertical-align: center;
+    color: rgb(232, 240, 250);
+    font-size: 25px;
+}
+
 .text{
     text-align: center;
     vertical-align: center;
