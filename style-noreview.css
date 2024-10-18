@@ -1,0 +1,50 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.not{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(232, 240, 250);
+    padding: 10px;
+}
+
+.no{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(232, 240, 250);
+}
+
+.noway{
+    text-align: center;
+    font-size: 150px;
+    color: rgb(232, 240, 250);
+}
+
+.nope{
+    background-color: rgb(32, 48, 84);
+    border-radius: 5px;
+}
+
+.menu{
+    font-size: 20px;
+    overflow: hidden;
+    background-color: rgb(32, 48, 84);
+}
+
+.menu a{
+    float: left;
+    color: rgb(232, 240, 250);
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.menu a.active{
+    background-color: black;
+}

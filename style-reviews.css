@@ -65,3 +65,46 @@ img{
     background-color: rgb(32, 48, 84);
     text-align: center;
 }
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 80%;
+    margin: 20px auto 30px auto;
+    gap: 5%;
+}
+
+.image{
+    background-color: rgb(32, 48, 84);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.book{
+    height: 600px;
+}
+
+.name{
+    text-align: center;
+    color: rgb(232, 240, 250);
+    font-size: 30px;
+}
+
+.review{
+    background-color: rgb(32, 48, 84);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.rating{
+    color: rgb(232, 240, 250);
+    text-align: center;
+    font-size: 40px;
+}
+
+.no{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(232, 240, 250);
+    text-decoration: none;
+}
