@@ -97,7 +97,7 @@ img{
 }
 
 .rating{
-    color: rgb(232, 240, 250);
+    color: gold;
     text-align: center;
     font-size: 40px;
 }
@@ -107,4 +107,10 @@ img{
     font-size: 30px;
     color: rgb(232, 240, 250);
     text-decoration: none;
+}
+
+.wordreview{
+    text-align: center;
+    color: rgb(232, 240, 250);
+    vertical-align: center;
 }
