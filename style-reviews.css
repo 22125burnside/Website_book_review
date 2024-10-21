@@ -92,7 +92,7 @@ img{
 
 .review{
     background-color: rgb(32, 48, 84);
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
 }
 
@@ -104,7 +104,7 @@ img{
 
 .no{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(232, 240, 250);
     text-decoration: none;
 }
