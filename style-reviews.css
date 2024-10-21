@@ -82,12 +82,13 @@ img{
 
 .book{
     height: 600px;
+    margin-top: 20px;
 }
 
 .name{
     text-align: center;
     color: rgb(232, 240, 250);
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .review{
