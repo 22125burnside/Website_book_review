@@ -69,8 +69,8 @@ img{
 .two-column{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    width: 90%;
-    margin: 50px auto 30px auto;
+    width: 80%;
+    margin: 50px auto 30px 200px;
     gap: 5%;
 }
 
@@ -107,9 +107,12 @@ img{
     font-size: 20px;
     color: rgb(232, 240, 250);
     text-decoration: none;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 .wordreview{
     text-align: center;
     color: rgb(232, 240, 250);
+    padding: 40px;
 }
