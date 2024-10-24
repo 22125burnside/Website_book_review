@@ -69,9 +69,9 @@ img{
 .two-column{
     display: grid;
     grid-template-columns: 2fr 3fr;
-    width: 80%;
+    width: 90%;
     margin: 20px auto 30px auto;
-    gap: 20%;
+    gap: 10%;
 }
 
 .countdown-header, .countdown, .description-header, .description-text{
@@ -114,7 +114,7 @@ img{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 100px;
-    width: 80%;
+    width: 90%;
     margin: 40px auto 50px auto;
 }
 
@@ -136,6 +136,6 @@ a{
 }
 
 .book{
-    height: 350px;
+    height: 450px;
 }
 

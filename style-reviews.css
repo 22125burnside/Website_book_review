@@ -116,3 +116,8 @@ img{
     color: rgb(232, 240, 250);
     padding: 40px;
 }
+
+.name{
+    text-align: center;
+    color: rgb(232, 240, 250);
+}
